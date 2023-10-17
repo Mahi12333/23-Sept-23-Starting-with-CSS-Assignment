@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Style the entire form */
+.styled-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 42px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.styled-form h1 {
+    color: #333;
+}
+
+/* Style form sections (Name, Email, Message) */
+.form-section {
+    margin: 10px 0;
+}
+
+.form-section label {
+    display: block;
+    color: #555;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-section input,
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Apply opacity to the Message section */
+.with-opacity {
+    opacity: 0.8;
+}
